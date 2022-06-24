@@ -1,4 +1,65 @@
-/* Navbar CSS CODE*/
-* {
-  color: red;
+.home_why_us_box {
+  background-color: rgb(244, 221, 211);
+  margin: -6px;
+  padding-top: 10px;
+}
+.home_why_us_heading {
+  text-align: center;
+  border: 2px red;
+}
+.home_why_us_box {
+  /* border: 2px solid red; */
+}
+.home_why_us_divs {
+  /* border: 2px solid red; */
+}
+.home_why_us_heading {
+  font-size: 40px;
+}
+.home_why_us_div {
+  margin-top: 50px;
+  /* border: 2px solid red; */
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+.home_why_us_div_text {
+  width: 50%;
+
+  font-size: 30px;
+  background-image: url(../image/whychoseus/6iC.gif);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 198px 13px 103px 13px;
+  border-radius: 13px 13px 13px 13px;
+}
+.home_why_us_div_text h1 {
+  background-color: rgba(244, 221, 211, 0.3);
+  border-radius: 30px 30px 30px 30px;
+  padding: 20px;
+}
+.home_why_us_div_image {
+  /* width: 80%; */
+  display: flex;
+}
+.home_why_us_div_image_transparency {
+  opacity: 0.5;
+}
+.home_why_us_div_image img {
+  height: 350px;
+  width: 100%;
+  margin: auto;
+  border-radius: 13px 13px 13px 13px;
+}
+.home_why_us_div_image img:hover {
+  opacity: 0.9;
+}
+#reverse {
+  flex-direction: row-reverse;
 }

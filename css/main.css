@@ -1,0 +1,307 @@
+/* CAROUSEL SECTION */
+
+.carousel-div {
+  min-height: 100vh;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.carousel-img {
+  height: 70vh;
+}
+
+.carousel-item {
+  padding: 9.6rem;
+  padding-left: 15.5rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-title {
+  margin-bottom: 2rem;
+  padding: 0 1.6rem 0 1.6rem;
+}
+
+.carousel-title-text {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  /* border: 2px solid red; */
+}
+
+.carousel-heading {
+  font-size: 8.6rem;
+  color: #e60000;
+  margin-bottom: 3.2rem;
+}
+
+.special-keyword {
+  font-size: 8.6rem;
+  color: #212529;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.special-keyword-largest {
+  font-size: 1.4rem;
+  color: #e60000;
+  letter-spacing: 2px;
+}
+
+.carousel-btn:link {
+  background-color: #212529;
+  display: inline-block;
+  margin: 0 auto !important;
+}
+
+.carousel-btn:link:hover {
+  box-shadow: inset 0 0 3px 0 #ddd;
+}
+
+.carousel-content {
+  padding: 0 1.6rem 0 1.6rem;
+}
+
+/* SERVICES SECTION */
+
+.section-services {
+  margin-bottom: 9.6rem;
+}
+
+.services-heading-box {
+  margin-bottom: 9.6rem;
+}
+
+.services-heading {
+  padding-top: 3.2rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.service-heading-keyword {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #e60000;
+  letter-spacing: -0.5px;
+}
+
+.service-box {
+  border: 8px solid #212121;
+  width: 230px;
+  height: 250px;
+  background-color: #eee;
+}
+
+.service-img-box {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-img {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  /* filter: invert(88%) sepia(32%) saturate(2087%) hue-rotate(329deg)
+    brightness(101%) contrast(101%); */
+
+  filter: invert(10%) sepia(91%) saturate(5634%) hue-rotate(360deg)
+    brightness(101%) contrast(124%);
+}
+
+.service-text-box {
+  display: flex;
+  height: 30%;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+}
+
+.service-text {
+  color: #eee;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* WHY US SECTION */
+
+.why-us {
+  margin-top: 5rem;
+  margin-bottom: 9.6rem;
+}
+
+.why-us-heading {
+  padding-top: 3.2rem;
+  font-size: 4rem;
+  color: #212529;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.line-margin {
+  margin-bottom: 6.4rem !important;
+}
+
+.choose-us {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  color: #e60000;
+  letter-spacing: -0.5px;
+}
+
+.why-us-item {
+  margin-bottom: 9.6rem;
+}
+
+.why-us-items-text {
+  font-size: 3.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.why-us-items-img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 13px 13px 13px 13px;
+}
+
+/* DOWNLOAD APP SECTION */
+
+.donwload-heading {
+  padding-top: 8.4rem;
+  font-size: 4.5rem;
+  text-align: center;
+  color: #000;
+  margin-bottom: 3.2rem;
+}
+
+.download-app-text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-app-text-heading {
+  font-size: 4.2rem;
+  line-height: 1.4;
+  text-align: center;
+  margin: 6.4rem 0;
+}
+
+.download-app-text {
+  font-size: 3.2rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.fa-icon-download-section {
+  font-size: 1.7rem !important;
+  color: #212121 !important;
+  margin-right: 1rem;
+}
+
+.download-app-img-box {
+  margin-bottom: 3.2rem;
+}
+
+.download-app-img {
+  display: block;
+  width: 30rem;
+  margin: 0 auto;
+}
+
+/* CONTACT US SECTION */
+
+.contact-us {
+  margin-top: 6.4rem;
+  margin-bottom: 9.6rem;
+}
+
+.contact-us-heading {
+  text-transform: uppercase;
+  font-size: 4.2rem;
+  font-weight: 600;
+  color: #212121;
+  letter-spacing: -0.7px;
+  text-align: center;
+}
+
+.horizontal-line {
+  width: 90px;
+  height: 6px;
+  background-color: #d0131c;
+  margin: 2rem auto 3.2rem auto;
+}
+
+.contact-us-intro {
+  font-size: 1.8rem;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.2;
+  color: #212121;
+  margin-bottom: 4.8rem;
+}
+
+.contact-us-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-us-card {
+  background-color: #212121;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.contact-us-card-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  margin-bottom: 2.4rem;
+}
+
+.contact-us-card-content {
+  color: #eee;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  line-height: 1.5;
+}
+
+.contact-us-social-handles {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.contact-us-icon-img {
+  height: 7rem;
+  margin-bottom: 2.4rem;
+  filter: invert(68%) sepia(2%) saturate(45%) hue-rotate(314deg)
+    brightness(101%) contrast(86%);
+}
+
+.contact-us-email-link:link,
+.contact-us-email-link:visited {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.contact-us-email-link:hover,
+.contact-us-email-link:active {
+  color: #d0131c;
+}

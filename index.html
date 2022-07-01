@@ -45,118 +45,187 @@
 <!-- BODY CODE -->
 
 <body>
-  <!-- HEADER SECTION (NAV BAR) -->
+  
   <header class="header">
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/NavBar/logo.png" alt="Hyphen's Logo" class="logo" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item ms-3">
-              <a class="nav-link active-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="#">Warehouse</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <div class="fluid-container">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/NavBar/logo.png" alt="Hyphen's Logo" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-3">
+                <a class="nav-link active-link" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Warehouse</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <section class="section-home">
-      <div class="home">
-        <div class="home-text-box">
-          <h1 class="heading-primary">Warehousing & Fulfilment Solutions</h1>
-          <p class="home-description">
-            We provide End-to-End warehouse management, fulfillment, and
-            secondary distribution of both E-com and Non-Ecom segments.
-          </p>
-          <a href="#" class="btn btn--outline margin-right-sm"><i class="fab fa-google-play fa-icon-download"></i> Download App</a>
-          <a href="#" class="btn btn--full margin-right-sm">Search Warehouse</a>
+      </nav>
+      <section class="section-home">
+        <div class="home container">
+          <div class="home-text-box text-center">
+          <div class="home-text-box text-center">
+            <h1 class="heading-primary">
+              Warehousing & Fulfilment Solutions
+            </h1>
+            <p class="home-description">
+              We provide End-to-End warehouse management, fulfillment, and
+              secondary distribution of both E-com and Non-Ecom segments.
+            </p>
+            <!--
+          -->
+            <div class="button-container d-block d-sm-inline">
+              <a href="#" class="btn btn--outline margin-right-sm"
+                ><i class="fab fa-google-play fa-icon-download"></i> Download
+                App</a
+              >
+            </div>
+            <div class="button-container margin-right-sm d-block d-sm-inline"><a href="#" class="btn btn--full">Search Warehouse</a></div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </header>
 
   <!-- MAIN SECTION -->
   <main>
 
     <!-- CAROUSEL SECTION -->
-    <section class="container">
-      <div id="carousel-container">
-        <div id="carouselExampleControls" class="carousel slide carousel-div" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="carousel-title">
-                <span class="carousel-title-text">Building India's <span class="special-keyword-largest"> largest
-                  </span>Warehouse & Fulfillment Platform</span>
-              </div>
-              <div class="carousel-content">
-                <h2 class="carousel-heading">Your <span class="special-keyword">search</span> for Warehouse end here !
-                </h2>
-                <a href="#" class="btn btn--full carousel-btn">Browse Warehouse</a>
-              </div>
-              <!-- <img src="IMG/slider/choices.jpg" class="d-block carousel-img" alt="..."> -->
+    
+    <section class="corousel-section">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
-            <div class="carousel-item">
-              <div class="carousel-title">
-                <span class="carousel-title-text">Warehouse Owner</span>
+    
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-title">
+                  <span class="carousel-title-text"
+                    >Building India's
+                    <span class="special-keyword-largest"> largest </span>Warehouse
+                    & Fulfillment Platform</span
+                  >
+                </div>
+                <p class="carousel-description">
+                  Your <span class="special-keyword">search</span> for Warehouse end
+                  here !
+                </p>
+                <p>
+                  <a class="btn btn--full carousel-btn" href="#"
+                    >Browse Warehouse</a
+                  >
+                </p>
               </div>
-              <div class="carousel-content">
-                <h2 class="carousel-heading">Looking to <span class="special-keyword">rent </span> or <span
-                    class="special-keyword">lease</span> your Warehouse!</h2>
-                <a href="#" class="btn btn--full carousel-btn">Submit your Warehouse</a>
+    
+              <div class="carousel-item">
+                <div class="carousel-title">
+                  <span class="carousel-title-text"
+                    >Warehouse Owners Looking to
+                    <span class="special-keyword-largest">Rent</span> or
+                    <span class="special-keyword-largest">Lease</span> their
+                    Warehouses</span
+                  >
+                </div>
+                <p class="carousel-description">
+                  Submit you <span class="special-keyword">Warehouse</span> for
+                  listing Now !
+                </p>
+                <p>
+                  <a class="btn btn--full carousel-btn" href="#"
+                    >Submit Warehouse</a
+                  >
+                </p>
               </div>
-              <!-- <img src="IMG/slider/gps.jpg" class="d-block carousel-img" alt="..."> -->
+    
+              <div class="carousel-item">
+                <div class="carousel-title">
+                  <span class="carousel-title-text"
+                    >Do you want to
+                    <span class="special-keyword-largest">Outsource</span> your 3PL
+                    and 4PL? Then Contact Us Now !</span
+                  >
+                </div>
+                <p class="carousel-description">
+                  We provide all kind of
+                  <span class="special-keyword">Secondary</span> Distribution
+                  Solutions !
+                </p>
+                <p>
+                  <a class="btn btn--full carousel-btn" href="#">Get Quote</a>
+                </p>
+              </div>
             </div>
-            <div class="carousel-item">
-              <div class="carousel-title">
-                <span class="carousel-title-text">Solution for secondary distribution</span>
-              </div>
-              <div class="carousel-content">
-                <h2 class="carousel-heading"><span class="special-keyword">Outsource</span> your 3PL to us !</h2>
-                <a href="#" class="btn btn--full carousel-btn">Get Quote</a>
-              </div>
-              <!-- <img src="IMG/slider/savings.jpg" class="d-block carousel-img" alt="..."> -->
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-title">
-                <span class="carousel-title-text">Looking for Ancillary Services</span>
-              </div>
-              <div class="carousel-content">
-                <h2 class="carousel-heading">Man power, <span class="special-keyword">Logistics</span> & infrastructure.
-                </h2>
-                <a href="#" class="btn btn--full carousel-btn">Get Quote</a>
-              </div>
-              <!-- <img src="IMG/slider/savings.jpg" class="d-block carousel-img" alt="..."> -->
-            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
     </section>
+    
 
     <!-- SERVICES SECTION -->
 
@@ -184,7 +253,7 @@
                 />
               </div>
               <div class="service-text-box">
-                <span class="service-text">Warehouse</span>
+                <span class="service-text">Verified Warehouse</span>
               </div>
             </div>
           </div>
@@ -201,7 +270,7 @@
                 />
               </div>
               <div class="service-text-box">
-                <span class="service-text">Transportation</span>
+                <span class="service-text">Logistics</span>
               </div>
             </div>
           </div>
@@ -213,7 +282,7 @@
               <div class="service-img-box">
                 <img
                   src="img/Services/agreement.png"
-                  alt="Handshake Icon"
+                  alt="Box Icon"
                   class="service-img"
                 />
               </div>
@@ -229,7 +298,7 @@
             <div class="service-box col-6">
               <div class="service-img-box">
                 <img
-                  src="img/Services/24-hours-phone-service.png"
+                  src="img/Services/location.png"
                   alt="Tracking Map Icon"
                   class="service-img"
                 />
@@ -246,13 +315,13 @@
             <div class="service-box col-6">
               <div class="service-img-box">
                 <img
-                  src="img/Services/24-hours-phone-service.png"
+                  src="img/Services/SCM.png"
                   alt="Phone icon with 24 written on it"
                   class="service-img"
                 />
               </div>
               <div class="service-text-box">
-                <span class="service-text">Customer Service</span>
+                <span class="service-text">SCM Consultancy</span>
               </div>
             </div>
           </div>
@@ -338,7 +407,7 @@
 
           <div class="row row-cols-1 row-cols-md-2 why-us-item align-items-center">
             <div class="col order-1 order-md-0 mt-5 mt-md-0 why-us-item-text-box">
-              <p class="why-us-items-text">Minimun Processing Time</p>
+              <p class="why-us-items-text">Minimum Processing Time</p>
             </div>
             <div class="col">
               <img
@@ -460,7 +529,7 @@
                 <img
                 src="img/Contact Us/social-media.png"
                 alt="Socail Media Icons"
-                class="contact-us-icon-img"
+                class="contact-us-icon-img img-fluid"
               />
               <p class="contact-us-card-heading">Social Media:</p>
               <p class="contact-us-card-content">
@@ -469,22 +538,28 @@
               <div class="contact-us-social-handles">
                 
                 <a target="_blank" href="https://www.facebook.com/HyphenSCS/">
-                  <i class="fab fa-facebook-square fa-icon"></i>
+                  <i class="fab fa-facebook-square fa-icon fa-icon-contact"></i>
                 </a>
 
                 <a target="_blank" href="https://www.instagram.com/hyphenscs/">
-                  <i class="fab fa-instagram fa-icon"></i>
+                  <i class="fab fa-instagram fa-icon fa-icon-contact"></i>
                 </a>
 
                 <a target="_blank" href="https://twitter.com/hyphenscs">
-                  <i class="fab fa-twitter fa-icon"></i>
+                  <i class="fab fa-twitter fa-icon fa-icon-contact"></i>
                 </a>
 
                 <a
                   target="_blank"
                   href="http://www.linkedin.com/company/hyphenscs/"
                 >
-                  <i class="fab fa-linkedin-in fa-icon"></i>
+                  <i class="fab fa-linkedin-in fa-icon fa-icon-contact"></i>
+                </a>
+                <a target = "_blank" href = "https://www.youtube.com/c/HyphenSCS">
+                  <i class="fab fa-youtube fa-icon fa-icon-contact"></i>
+                </a>
+                <a target = "_blank" href = "https://hyphenscs.tumblr.com/">
+                  <i class="fab fa-tumblr-square fa-icon fa-icon-contact"></i>
                 </a>
               </div>
             </div>
@@ -563,7 +638,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12 order-1 order-sm-0 col-sm-6 copyright-text-box">
-                <p class="copyright-text text-center d-block d-sm-inline align-bottom text-sm-start">&copy;2022 Hyphen SCS - All Rights Reserved</p>
+                <p class="copyright-text text-center d-block d-sm-inline align-bottom text-sm-start">&copy;2022 Hyphen SCS - All Rights Reserved.
+                  <a class = "privacy-policy" href="#">Privacy Policy</a>
+                </p>
+                
             </div>
             <div class="col-12 col-sm-6 mb-3 mb-sm-0">
             <p class="social-links text-center text-sm-end">
@@ -582,6 +660,15 @@
                 <a target = "_blank" href = "http://www.linkedin.com/company/hyphenscs/">
                   <i class="fab fa-linkedin-in fa-icon"></i>
                 </a>
+                <a target = "_blank" href = "https://www.youtube.com/c/HyphenSCS">
+                  <i class="fab fa-youtube fa-icon"></i>
+                </a>
+                <a target = "_blank" href = "https://hyphenscs.tumblr.com/">
+                  <i class="fab fa-tumblr-square fa-icon"></i>
+                </a>
+                <!-- <a target = "_blank" href = "https://www.kooapp.com/profile/HyphenSCS">
+                  <img class = "koo-app" src="img/footer/Koo-app.png" alt="Koo App logo">
+                </a> -->
             </p>
         
           </div>
@@ -593,7 +680,7 @@
   <!-- BOOTSTRAP JS FILES-->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
 
   <!-- JS FILES -->

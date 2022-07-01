@@ -3,7 +3,7 @@
   padding: 3.2rem;
   padding-bottom: 1rem;
   padding-top: 6.4rem;
-  color: #ddd;
+  color: #eee;
   border-bottom: 6px solid #e60000;
 }
 
@@ -48,4 +48,19 @@
 
 .social-links {
   letter-spacing: 2px;
+}
+
+.koo-app {
+  height: 35px;
+}
+
+.privacy-policy:link,
+.privacy-policy:visited {
+  color: #eee;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.privacy-policy:hover {
+  color: #d0131c;
 }

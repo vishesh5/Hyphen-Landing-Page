@@ -1,0 +1,23 @@
+@media all and (max-width: 490px) {
+  .home-heading-text {
+    font-size: 4.8rem;
+  }
+}
+
+@media all and (max-width: 378px) {
+  .home-heading-text {
+    font-size: 4rem;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .khorbe-special {
+    font-size: 1.6rem;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .khorbe-special {
+    font-size: 1.8rem;
+  }
+}

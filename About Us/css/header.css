@@ -1,0 +1,99 @@
+/* HEADER SECTION */
+
+.header {
+  /* background-image: url(../img/Header/Background.jpg); */
+  background-image: linear-gradient(rgb(34, 34, 34, 0.6), rgb(34, 34, 34, 0.9)),
+    url(../img/Header/Background.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+
+/* NAVBAR SECTION */
+
+.logo {
+  width: 15rem;
+}
+
+.navbar {
+  background-image: linear-gradient(rgb(34, 34, 34, 0.4), rgb(34, 34, 34, 0.8));
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #eee;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  color: #f44638;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.active-link:link {
+  color: #f44638;
+}
+
+.active-link:hover {
+  color: #eee;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transform: all 0.3;
+}
+
+/* HOME SECTION */
+
+.home-logo {
+  margin-bottom: 6.4rem;
+}
+
+.home-tagline-box {
+  margin-bottom: 1.6rem;
+}
+
+.home-tagline-text {
+  font-size: 2.4rem;
+}
+
+.home-heading-box {
+  background-color: #d0131c;
+  margin-bottom: 8.4rem;
+}
+
+.home-text-box {
+  margin-top: 9.6rem;
+}
+
+.home-heading-text {
+  text-transform: uppercase;
+  font-size: 6.4rem;
+  /* font-size: 4.1rem; */
+  /* 4.1 for responsiveness */
+}
+
+.backed-by-box {
+  margin-bottom: 6.4rem;
+}
+
+.backed-by-text {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.Ondeck-color {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(323deg)
+    brightness(103%) contrast(102%);
+}

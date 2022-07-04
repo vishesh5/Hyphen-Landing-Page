@@ -5,11 +5,6 @@
   font-size: 10px;
 }
 
-html {
-  scroll-behavior: smooth;
-  /* scroll-padding-top: 2.5rem; */
-}
-
 body {
   font-family: 'Rubik', sans-serif;
   line-height: 1;
@@ -32,6 +27,8 @@ body {
   font-size: 4.8rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
+  text-align: center;
+  color: #212121;
 }
 
 .heading-tertiary {
@@ -104,5 +101,16 @@ body {
   width: 90px;
   height: 6px;
   background-color: #d0131c;
-  margin: 2rem auto 3.2rem auto;
+  margin: 2rem auto 4.8rem auto;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.section-tagline {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 3.2rem;
 }

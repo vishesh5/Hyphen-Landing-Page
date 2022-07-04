@@ -1,0 +1,353 @@
+/* WHO ARE WE SECTION */
+.section-who-are-we {
+  margin-bottom: 9.6rem;
+}
+
+.who-are-we-heading {
+  margin-bottom: 1.8rem;
+}
+
+.who-are-we-subheading {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 400;
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+}
+
+.who-are-we-points {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.who-are-we-fa-icon {
+  color: #d0131c;
+}
+
+.who-are-we-points-text {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+/* OUR VISION SECTION */
+
+.section-our-vision {
+  margin-bottom: 9.6rem;
+}
+
+.our-vision-custom-card {
+  /* box-shadow: 0px 0px 8px 1px #aaa; */
+  border: 4px solid #212121;
+  background-color: #d0131c;
+  transition: all 300ms;
+  margin-bottom: 2rem;
+}
+
+.our-vision-custom-card-img {
+  /* filter: invert(13%) sepia(78%) saturate(6411%) hue-rotate(353deg)
+    brightness(84%) contrast(93%); */
+  filter: invert(93%) sepia(93%) saturate(29%) hue-rotate(47deg)
+    brightness(107%) contrast(106%);
+  padding: 3rem;
+}
+
+.our-vision-custom-card:hover {
+  box-shadow: 0px 0px 21px 8px #aaa;
+}
+
+.our-vision-custom-card-body {
+  background-color: #212121;
+  padding: 1.5rem;
+}
+
+.our-vision-custom-card-title {
+  font-size: 3.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #212121;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  /* margin-top: -1rem; */
+}
+
+.our-vision-custom-card-text {
+  color: #ddd;
+  /* text-align: center; */
+  padding: 1.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* OUR CLIENTS */
+
+.section-our-clients {
+  margin-bottom: 9.6rem;
+}
+
+.our-client-heading {
+  margin-bottom: 1.8rem;
+}
+
+.our-client-row {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.client-box {
+  margin-bottom: 2rem;
+}
+
+.our-clients-card {
+  box-shadow: 0px 0px 12px 2px #aaa;
+}
+
+.our-clients-img {
+  /* border: 4px solid #212121; */
+  padding: 2rem;
+  height: 171px;
+  /* width: 223px; */
+  /* filter: invert(11%) sepia(90%) saturate(0%) hue-rotate(213deg)
+    brightness(108%) contrast(84%); */
+}
+
+.our-client-many-more-box {
+  height: 171px;
+  box-shadow: none;
+  /* border: 2px solid #212121; */
+}
+.our-client-many-more-text {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #d0131c;
+}
+
+/* VISUAL DATA SECTION */
+
+.section-visual-data {
+  margin-bottom: 9.6rem;
+}
+
+.visual-data-heading {
+  margin-bottom: 1.8rem;
+}
+
+.visual-data-container-box {
+  background-color: #212121;
+}
+
+.visual-data-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.8rem;
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.visual-data-fa-icon {
+  color: #fff;
+  font-size: 9.6rem;
+  margin-bottom: 2rem;
+}
+
+.visual-data-fa-icon:hover {
+  color: #fff;
+}
+
+.visual-data-count-box {
+  gap: 1rem;
+}
+
+.visual-data-count {
+  font-size: 8.4rem;
+}
+
+.visula-data-count-heading {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+/* OUR LEADERSHIP SECTION */
+
+.section-our-leadership {
+  margin-bottom: 9.6rem;
+}
+
+.our-leadership-heading {
+  margin-bottom: 1.8rem;
+}
+
+.our-leadership-custom-card {
+  box-shadow: 0px 0px 8px 0.5px #bbb;
+  margin-bottom: 2.5rem;
+}
+
+.our-leadership-custom-card-img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.our-leadership-custom-card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.card-our-leadership-custom-card-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 0.8rem;
+}
+
+.card-our-leadership-custom-card-job-profile {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.btn-our-leader-learn-more:link,
+.btn-our-leader-learn-more:visited {
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 1.5rem 3rem;
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonials {
+  margin-bottom: 9.6rem;
+}
+
+.testimonial-carousel-box {
+  background-color: #212121;
+}
+
+.testimonials-heading {
+  margin-bottom: 1.8rem;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.testimonial-box {
+  display: flex;
+  min-width: 100%;
+  transition: all 1s;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-content-box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.testimonial-content {
+  font-size: 1.8rem;
+  color: #eee;
+  line-height: 1.4;
+  padding-top: 20px;
+}
+.testimonial-by-box {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-by-name {
+  color: #d0131c;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+.testimonial-by-designation {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+/* CONTACT US SECTION */
+
+.section-contact-us {
+  margin-bottom: 9.6rem;
+}
+
+.contact-us-custom-card {
+  margin-bottom: 3rem;
+  box-shadow: 0px 0px 18px 4px #aaa;
+}
+
+.contact-us-custom-card-body {
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.contact-us-custom-card-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact-us-custom-card-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.contact-us-card-contact-us-title {
+  margin-bottom: 1.1rem;
+}
+
+.contact-us-fa-icon {
+  font-size: 2rem;
+  color: #d0131c;
+  margin-right: 0.5rem;
+}
+
+.contact-us-email-link:link,
+.contact-us-email-link:visited {
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.contact-us-email-link:hover,
+.contact-us-email-link:active {
+  color: #d0131c;
+}
+
+.contact-us-number {
+  font-size: 1.6rem;
+  color: #888;
+  margin-bottom: 1.2rem;
+}
+
+.contact-us-btn:link,
+.contact-us-btn:visited {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-bottom: 0;
+}

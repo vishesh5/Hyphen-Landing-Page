@@ -2,7 +2,7 @@
 
 .header {
   /* background-image: url(../img/Header/Background.jpg); */
-  background-image: linear-gradient(rgb(34, 34, 34, 0.6), rgb(34, 34, 34, 0.9)),
+  background-image: linear-gradient(rgb(34, 34, 34, 0.5), rgb(34, 34, 34, 0.5)),
     url(../img/Header/Background.jpg);
   background-size: cover;
   min-height: 100vh;
@@ -64,36 +64,55 @@
 
 .home-tagline-text {
   font-size: 2.4rem;
+  color: #eee;
 }
 
 .home-heading-box {
-  background-color: #d0131c;
-  margin-bottom: 8.4rem;
+  background-color: #fff;
+  margin-bottom: 0rem;
 }
 
 .home-text-box {
-  margin-top: 9.6rem;
+  margin-top: 8.4rem;
+}
+
+.home-heading-box {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-heading-text {
   text-transform: uppercase;
-  font-size: 6.4rem;
+  font-size: 4.8rem;
+  letter-spacing: -0.8px;
+  color: #d0131c;
   /* font-size: 4.1rem; */
   /* 4.1 for responsiveness */
 }
 
+.backed-by-heading {
+  columns: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-size: 2.2rem;
+  margin-bottom: 3.2rem;
+}
+
 .backed-by-box {
-  margin-bottom: 6.4rem;
+  margin-bottom: 2rem;
+  margin-top: 1.6rem;
 }
 
 .backed-by-text {
-  color: #fff;
-  font-size: 3.2rem;
+  color: #e6e6e6;
+  font-size: 4.2rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .Ondeck-color {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(323deg)
-    brightness(103%) contrast(102%);
+  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(323deg)
+    brightness(103%) contrast(102%); */
 }

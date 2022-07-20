@@ -219,7 +219,6 @@
 }
 
 /* CONTACT US SECTION */
-
 .contact-us {
   margin-top: 6.4rem;
   margin-bottom: 9.6rem;
@@ -229,7 +228,7 @@
   text-transform: uppercase;
   font-size: 4.2rem;
   font-weight: 600;
-  color: #212121;
+  color: #333;
   letter-spacing: -0.7px;
   text-align: center;
 }
@@ -240,7 +239,7 @@
   width: 70%;
   margin: 0 auto;
   line-height: 1.2;
-  color: #212121;
+  color: #666;
   margin-bottom: 4.8rem;
 }
 
@@ -251,8 +250,8 @@
 }
 
 .contact-us-card {
-  /* background-color: #212121; */
-  background-color: #e60000;
+  background-color: #333;
+  /* background-color: #e60000; */
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -288,14 +287,23 @@
 .contact-us-icon-img {
   height: 7rem;
   margin-bottom: 2.4rem;
+  filter: invert(68%) sepia(2%) saturate(45%) hue-rotate(314deg)
+    brightness(101%) contrast(86%);
+  /* filter: invert(99%) sepia(5%) saturate(236%) hue-rotate(128deg)
+    brightness(112%) contrast(73%); */
+}
+
+.contact-us-icon-img-flag {
+  height: 7rem;
+  margin-bottom: 2.4rem;
   /* filter: invert(68%) sepia(2%) saturate(45%) hue-rotate(314deg)
     brightness(101%) contrast(86%); */
-  filter: invert(99%) sepia(5%) saturate(236%) hue-rotate(128deg)
-    brightness(112%) contrast(73%);
+  /* filter: invert(99%) sepia(5%) saturate(236%) hue-rotate(128deg)
+    brightness(112%) contrast(73%); */
 }
 
 .fa-icon-contact:hover {
-  color: #212121;
+  color: #d0131c;
 }
 
 .contact-us-email-link:link,
@@ -306,6 +314,6 @@
 
 .contact-us-email-link:hover,
 .contact-us-email-link:active {
-  /* color: #d0131c; */
-  color: #212121;
+  color: #d0131c;
+  /* color: #212121; */
 }

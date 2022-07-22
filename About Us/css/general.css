@@ -10,7 +10,7 @@ body {
   line-height: 1;
   font-weight: 400;
   background: #fff;
-  color: #212529;
+  color: #333;
   /* border-top: 1px solid #cc0000; */
 }
 
@@ -28,7 +28,9 @@ body {
   line-height: 1.05;
   margin-bottom: 3.2rem;
   text-align: center;
-  color: #212121;
+  color: #150203;
+  text-transform: uppercase;
+  letter-spacing: -2px;
 }
 
 .heading-tertiary {
@@ -85,7 +87,7 @@ body {
 }
 
 .fa-icon:hover {
-  color: #d0131c;
+  color: #de5a60;
 }
 
 /* FLEX CENTER */
@@ -111,6 +113,83 @@ body {
 .section-tagline {
   text-align: center;
   font-size: 1.8rem;
+  line-height: 1.6;
   font-weight: 300;
   margin-bottom: 3.2rem;
+  color: #666;
+}
+
+/* RED BOXES */
+.box-top-left {
+  z-index: -10;
+  width: 50rem;
+  height: 50rem;
+  background-color: #111;
+  position: absolute;
+  transform: rotate(45deg) translateX(-34%) translateY(52%);
+}
+
+.box-bottom-left {
+  z-index: -10;
+  width: 50rem;
+  height: 50rem;
+  background-color: #111;
+  position: absolute;
+  bottom: 0;
+  transform: rotate(45deg) translateX(-50%) translateY(60%);
+}
+
+.box-top-left-small {
+  z-index: -10;
+  width: 60rem;
+  height: 60rem;
+  background-color: #111;
+  position: absolute;
+  top: 0;
+  transform: rotate(45deg) translateX(-91%) translateY(20%);
+}
+
+.box-bottom-right-small {
+  z-index: -10;
+  width: 60rem;
+  height: 60rem;
+  background-color: #111;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(45deg) translateX(91%) translateY(20%);
+}
+
+.box-top-right {
+  right: 0;
+  top: 5rem;
+  z-index: -10;
+  width: 50rem;
+  height: 50rem;
+  background-color: #111;
+  position: absolute;
+  transform: rotate(45deg) translateX(80%) translateY(-50%);
+}
+
+.box-color-red {
+  background-color: #d0131c;
+}
+
+.box-color-light-red {
+  background-color: #333;
+}
+
+/* SECTION BORDER */
+
+.section-subtle-border-bottom {
+  margin: 7.2rem auto 9.6rem;
+  width: 90%;
+  border-bottom: 1px solid #f6d0d2;
+}
+
+.section-subtle-border-top {
+  margin: 7.2rem auto 8.4rem;
+  width: 90%;
+  padding-top: 9.6rem;
+  border-top: 1px solid #f6d0d2;
 }

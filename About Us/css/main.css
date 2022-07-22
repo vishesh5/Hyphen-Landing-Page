@@ -1,6 +1,24 @@
 /* WHO ARE WE SECTION */
 .section-who-are-we {
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
+  position: relative;
+  overflow: hidden;
+}
+
+.warehouse-bg-image {
+  position: absolute;
+  z-index: -100;
+  top: 20%;
+  opacity: 0.8;
+}
+
+.truck-bg-image {
+  position: absolute;
+  z-index: -100;
+  bottom: 15%;
+  right: 0;
+  height: 17%;
+  opacity: 0.5;
 }
 
 .who-are-we-heading {
@@ -11,55 +29,115 @@
   font-size: 2.4rem;
   text-align: center;
   font-weight: 400;
+  margin: auto;
   margin-top: -2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 9.6rem;
+  line-height: 1.3;
+  width: 80%;
 }
 
-.who-are-we-points {
+.who-are-we-2-col-grid-box {
+  /* margin-bottom: 3.2rem; */
+  justify-content: end;
+  /* column-gap: 3rem; */
+}
+
+.who-are-we-card-box {
+  width: 90%;
+  transition: all 400ms cubic-bezier(1, 1, 1, 1);
+}
+
+.who-are-we-card-box:hover {
+  background-color: #d52b33;
+  transform: scale(1.04);
+}
+
+.who-are-we-box-content {
+  margin-bottom: 3.2rem;
+}
+
+.who-are-we-icon-box {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  justify-content: start;
 }
 
-.who-are-we-fa-icon {
-  color: #d0131c;
+.who-are-we-card-box:hover .who-are-we-icon {
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(272deg)
+    brightness(103%) contrast(101%);
 }
 
-.who-are-we-points-text {
-  font-size: 1.8rem;
+.who-are-we-icon {
+  height: 6.4rem;
+  width: 6.4rem;
+  filter: invert(15%) sepia(74%) saturate(4387%) hue-rotate(348deg)
+    brightness(95%) contrast(101%);
+}
+
+.who-are-we-text-box {
+  padding: 1.2rem;
+}
+
+.who-are-we-text-heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  /* line-height: 1.6; */
+  letter-spacing: -0.5px;
+}
+
+.who-are-we-card-box:hover .who-are-we-text-heading {
+  color: #fff;
+}
+
+.who-are-we-text-content {
+  font-size: 1.6rem;
   line-height: 1.4;
+  color: #333;
+}
+
+.who-are-we-card-box:hover .who-are-we-text-content {
+  color: #ccc;
 }
 
 /* OUR VISION SECTION */
 
 .section-our-vision {
-  margin-bottom: 9.6rem;
+  padding-top: 1.8rem;
+  /* padding-bottom: 6.4rem; */
+  overflow: hidden;
+  position: relative;
+}
+
+.our-vision-card-box {
+  margin-bottom: 5rem;
 }
 
 .our-vision-custom-card {
-  /* box-shadow: 0px 0px 8px 1px #aaa; */
-  border: 4px solid #212121;
-  background-color: #d0131c;
-  transition: all 300ms;
   margin-bottom: 2rem;
-}
-
-.our-vision-custom-card-img {
-  /* filter: invert(13%) sepia(78%) saturate(6411%) hue-rotate(353deg)
-    brightness(84%) contrast(93%); */
-  filter: invert(93%) sepia(93%) saturate(29%) hue-rotate(47deg)
-    brightness(107%) contrast(106%);
-  padding: 3rem;
+  transition: all 400ms ease-in-out;
+  /* border-bottom: 1px solid #f6d0d2; */
+  box-shadow: inset 0px 1px 2px #e8898e;
+  transform: scale(1.05);
 }
 
 .our-vision-custom-card:hover {
-  box-shadow: 0px 0px 21px 8px #aaa;
+  transform: scale(1.1);
+  box-shadow: inset 0px 1px 2px transparent;
+}
+
+.our-vision-custom-card-img {
+  height: 300px;
+  width: 300px;
 }
 
 .our-vision-custom-card-body {
-  background-color: #212121;
   padding: 1.5rem;
+  margin-top: 2rem;
+  /* padding-top: 3.5rem; */
+}
+
+.our-vision-custom-card:hover .our-vision-custom-card-body {
+  background-color: #bb1119;
 }
 
 .our-vision-custom-card-title {
@@ -67,25 +145,34 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: #212121;
-  background-color: #fff;
+  /* color: #212121; */
+  color: #bb1119;
+  /* background-color: #d94249; */
   text-align: center;
-  margin-bottom: 2rem;
-  /* margin-top: -1rem; */
+}
+
+.our-vision-custom-card:hover .our-vision-custom-card-title {
+  color: #fff;
 }
 
 .our-vision-custom-card-text {
-  color: #ddd;
-  /* text-align: center; */
-  padding: 1.5rem;
+  color: #333;
+  /* padding: 2rem; */
+  text-align: center;
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 1.3;
+}
+
+.our-vision-custom-card:hover .our-vision-custom-card-text {
+  color: #eee;
 }
 
 /* OUR CLIENTS */
 
 .section-our-clients {
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
+  position: relative;
+  overflow: hidden;
 }
 
 .our-client-heading {
@@ -103,15 +190,22 @@
 
 .our-clients-card {
   box-shadow: 0px 0px 12px 2px #aaa;
+  overflow: hidden;
 }
 
 .our-clients-img {
   /* border: 4px solid #212121; */
   padding: 2rem;
   height: 171px;
+  /* transform: scale(1.1); */
+  transition: all 400ms;
   /* width: 223px; */
   /* filter: invert(11%) sepia(90%) saturate(0%) hue-rotate(213deg)
     brightness(108%) contrast(84%); */
+}
+
+.our-clients-img:hover {
+  transform: scale(1.05);
 }
 
 .our-client-many-more-box {
@@ -122,13 +216,13 @@
 .our-client-many-more-text {
   font-size: 3.2rem;
   font-weight: 600;
-  color: #d0131c;
+  color: #de5a60;
 }
 
 /* VISUAL DATA SECTION */
 
 .section-visual-data {
-  margin-bottom: 9.6rem;
+  margin-bottom: 6.4rem;
 }
 
 .visual-data-heading {
@@ -136,43 +230,46 @@
 }
 
 .visual-data-container-box {
-  background-color: #d0131c;
+  background-color: #680a0e;
 }
 
 .visual-data-box {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #ddd;
+  color: #f6d0d2;
   padding-top: 6.4rem;
   padding-bottom: 6.4rem;
 }
 
 .visual-data-fa-icon {
-  color: #ddd;
-  font-size: 9.6rem;
-  margin-bottom: 3rem;
+  color: #f6d0d2;
+  font-size: 14rem;
+  margin-bottom: 4rem;
 }
 
 .visual-data-fa-icon:hover {
-  color: #ddd;
+  color: #f6d0d2;
 }
 
 .visual-data-count {
   font-size: 8.4rem;
-  color: #fff;
+  color: #fae7e8;
 }
 
 .visula-data-count-heading {
-  font-size: 2.4rem;
+  margin-top: 1.6rem;
+  font-size: 3.2rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
 }
 
-/* OUR LEADERSHIP SECTION */
+/* OUR LEADERSHIP SECTION  */
 
 .section-our-leadership {
-  margin-bottom: 9.6rem;
+  padding-top: 2.2rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .our-leadership-heading {
@@ -180,8 +277,16 @@
 }
 
 .our-leadership-custom-card {
-  box-shadow: 0px 0px 8px 0.5px #bbb;
-  margin-bottom: 2.5rem;
+  /* margin-bottom: rem; */
+  /* border-bottom: 1px solid #e8898e; */
+  padding: 2rem;
+  transition: all 400ms ease-in-out;
+}
+
+.our-leadership-custom-card:hover {
+  transform: translateY(-5%);
+  /* transform: scale(1) translateY(-10%); */
+  box-shadow: 0px 1px 2px #e8898e;
 }
 
 .our-leadership-custom-card-img {
@@ -189,32 +294,59 @@
   border-radius: 50%;
 }
 
+.our-leadership-custom-card-body {
+  margin-top: 3rem;
+}
+
 .our-leadership-custom-card-title {
   font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5em;
 }
 
 .card-our-leadership-custom-card-subtitle {
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.6rem;
+  font-weight: 400;
   text-align: center;
   color: #aaa;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .card-our-leadership-custom-card-job-profile {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
-  margin-bottom: 1.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e8898e;
+  transition: all 400ms ease-in-out;
 }
 
-.btn-our-leader-learn-more:link,
-.btn-our-leader-learn-more:visited {
-  font-size: 1.6rem;
-  width: 100%;
-  padding: 1.5rem 3rem;
+.our-leadership-custom-card:hover .card-our-leadership-custom-card-job-profile {
+  border-bottom: 1px solid transparent;
+}
+
+.our-leader-learn-more-box {
+  /* display: none; */
+  visibility: collapse;
+  margin-top: 3.2rem;
+  gap: 2rem;
+  background-color: #a60f16;
+  padding: 2rem;
+  transition: all 400ms ease-in-out;
+}
+
+.our-leadership-custom-card:hover .our-leader-learn-more-box {
+  /* display: flex; */
+  visibility: visible;
+}
+
+.our-leadership-fa-icon {
+  color: #fff;
+  font-size: 3.8rem;
+}
+.our-leadership-fa-icon:hover {
+  color: #333;
+  font-size: 3.8rem;
 }
 
 /* TESTIMONIALS SECTION */
@@ -223,12 +355,30 @@
   margin-bottom: 9.6rem;
 }
 
-.testimonial-carousel-box {
-  background-color: #212121;
+.testimonials-heading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  background-color: #d0131c;
 }
 
 .testimonials-heading {
-  margin-bottom: 1.8rem;
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  margin-bottom: 3.2rem;
+  color: #fff;
+}
+
+.testimonial-tagline {
+  font-size: 2.4rem;
+  color: #aaa;
+}
+
+.testimonial-horizontal-line {
+  background-color: #fff;
+  margin: 0;
 }
 
 .testimonial-box {
@@ -239,6 +389,8 @@
 .testimonial-img {
   width: 20rem;
   height: 20rem;
+  border: 4px solid #d0131c;
+  padding: 2.5px;
   border-radius: 50%;
 }
 
@@ -258,10 +410,19 @@
 
 .testimonial-content {
   font-size: 1.8rem;
-  color: #eee;
+  color: #212121;
   line-height: 1.4;
   padding-top: 20px;
 }
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212121' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212121' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 .testimonial-by-box {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -277,6 +438,7 @@
   text-transform: uppercase;
   letter-spacing: 1.2px;
   font-weight: 600;
+  text-align: center;
 }
 .testimonial-by-designation {
   text-transform: uppercase;
@@ -285,63 +447,101 @@
 }
 
 /* CONTACT US SECTION */
-
-.section-contact-us {
+.contact-us {
+  margin-top: 6.4rem;
   margin-bottom: 9.6rem;
 }
 
-.contact-us-custom-card {
-  margin-bottom: 3rem;
-  box-shadow: 0px 0px 18px 4px #aaa;
-}
-
-.contact-us-custom-card-body {
-  margin-top: 2rem;
-  padding: 1.5rem;
-}
-
-.contact-us-custom-card-title {
-  font-size: 2.4rem;
+.contact-us-heading {
+  text-transform: uppercase;
+  font-size: 4.2rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  color: #333;
+  letter-spacing: -0.7px;
   text-align: center;
 }
 
-.contact-us-custom-card-text {
+.contact-us-intro {
   font-size: 1.8rem;
-  line-height: 1.5;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.2;
+  color: #666;
+  margin-bottom: 4.8rem;
 }
 
-.contact-us-card-contact-us-title {
-  margin-bottom: 1.1rem;
+.contact-us-img {
+  width: 110%;
+  display: block;
+  margin: 0 auto;
 }
 
-.contact-us-fa-icon {
-  font-size: 2rem;
+.contact-us-card {
+  background-color: #333;
+  /* background-color: #e60000; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.contact-us-card-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* color: #aaa; */
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  margin-bottom: 2.4rem;
+}
+
+.contact-us-card-content {
+  /* color: #eee; */
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  line-height: 1.8;
+}
+
+.contact-us-social-handles {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact-us-icon-img {
+  height: 7rem;
+  margin-bottom: 2.4rem;
+  filter: invert(68%) sepia(2%) saturate(45%) hue-rotate(314deg)
+    brightness(101%) contrast(86%);
+  /* filter: invert(99%) sepia(5%) saturate(236%) hue-rotate(128deg)
+    brightness(112%) contrast(73%); */
+}
+
+.contact-us-icon-img-flag {
+  height: 7rem;
+  margin-bottom: 2.4rem;
+  /* filter: invert(68%) sepia(2%) saturate(45%) hue-rotate(314deg)
+    brightness(101%) contrast(86%); */
+  /* filter: invert(99%) sepia(5%) saturate(236%) hue-rotate(128deg)
+    brightness(112%) contrast(73%); */
+}
+
+.fa-icon-contact:hover {
   color: #d0131c;
-  margin-right: 0.5rem;
 }
 
 .contact-us-email-link:link,
 .contact-us-email-link:visited {
-  font-size: 1.3rem;
-  color: #888;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .contact-us-email-link:hover,
 .contact-us-email-link:active {
-  color: #d0131c;
-}
-
-.contact-us-number {
-  font-size: 1.6rem;
-  color: #888;
-  margin-bottom: 1.2rem;
-}
-
-.contact-us-btn:link,
-.contact-us-btn:visited {
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
-  margin-bottom: 0;
+  color: #de5a60;
+  /* color: #212121; */
 }
